@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE7DEA94-6F19-1CDE-1C9B-6CFB8589CD65" name="Number">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:29:44 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nName_Kor" id="FBD81323-452D-DD8C-49A7-67D2209DEEEC">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:30:38 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nName_Org" id="36D23793-8DEC-4182-328B-DA118BB31337">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:30:38 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nIndex" id="41DE3B59-C814-0614-614A-AA4A737A0364">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:30:38 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="musical_mTitle_kor" id="1D797EA5-8432-7013-46E0-203642DCB3C7">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:31:31 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7486A1A2-6522-C76C-9F1A-CEC021025B43" referredColumn="6C25E39C-D9D8-59A2-4432-0027BD090562"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EDAEE05-00A0-402D-C3C3-CED12F886381" name="Number_PK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:30:38 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FBD81323-452D-DD8C-49A7-67D2209DEEEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="970E721C-CA7D-A336-46C4-C10D1C13D495" name="Number_musical_FK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:31:31 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D797EA5-8432-7013-46E0-203642DCB3C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

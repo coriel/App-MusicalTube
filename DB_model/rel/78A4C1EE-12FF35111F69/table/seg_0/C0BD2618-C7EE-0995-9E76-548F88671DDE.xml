@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0BD2618-C7EE-0995-9E76-548F88671DDE" name="musical">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:03:54 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mTitle_kor" id="6C25E39C-D9D8-59A2-4432-0027BD090562">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:04:29 UTC</createdTime>
+<commentInRDBMS>뮤지컬 한글명</commentInRDBMS>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mTitle_Org" id="D3CEDFD0-4B2D-9D10-2E2D-90976C5BE5D3">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:04:42 UTC</createdTime>
+<commentInRDBMS>뮤지컬 원제</commentInRDBMS>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mYear" id="B1A5DA50-037D-6EE5-D9A1-6D82712394AB">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:07:32 UTC</createdTime>
+<commentInRDBMS>제조년도(DVD, Blueray등)</commentInRDBMS>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mCountry" id="985BECD0-33B9-0B4D-0A97-CE21FE7499A6">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:08:02 UTC</createdTime>
+<commentInRDBMS>제조국가</commentInRDBMS>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mLanguage" id="5D14F62D-E3D5-275A-F0E4-B809D090FB05">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:09:31 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="etc" id="361B2C99-CF32-5E1E-A094-31FCDEB8DA3D">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:09:17 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mSubtitle" id="F4F3D467-49BA-B9D5-E318-1453311435B5">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:09:53 UTC</createdTime>
+<commentInRDBMS>한글 자막 유무</commentInRDBMS>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mMovieAct1" id="27431391-239B-0C20-A859-E77B1013757C">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:10:45 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mMovieAct2" id="20483757-F13F-B6E6-6EEF-B4B6ACD8A181">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:10:45 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D9E03BA-F935-C67C-20E3-C0E2A1FA8AD4" name="musical_PK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:04:29 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C25E39C-D9D8-59A2-4432-0027BD090562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

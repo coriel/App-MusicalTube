@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D1F49AE-49C7-AE54-C6BA-7EE7D6D4A407" name="Actor">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:12:43 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aName_Kor" id="F438303B-9F5C-93AB-74E1-41A467AD4FDF">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:14:21 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aName_Org" id="8D555488-205F-5988-2BE0-14E634955BB2">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:28:40 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aGender" id="B47F511C-67CE-8FF5-CD03-8AFA5148C240">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:14:21 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="aBirth" id="5170DFA6-2CC5-FEF9-86FF-BCB20570DD23">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:15:47 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="musical_mTitle_kor" id="E124E507-C144-D1B8-31AF-9BB4068602F9">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:23:37 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4282C973-E313-D03E-C601-72E2A8CE84EE" referredColumn="6C25E39C-D9D8-59A2-4432-0027BD090562"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CCE09CF-BD8F-802F-F0CE-682C58A3AFF0" name="Actor_PK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:14:21 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F438303B-9F5C-93AB-74E1-41A467AD4FDF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DAACCB48-F0A2-5BF2-4BEC-97EBDF4E50C4" name="Actor_musical_FK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:23:37 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E124E507-C144-D1B8-31AF-9BB4068602F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

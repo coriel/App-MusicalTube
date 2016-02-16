@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C9CF04AF-CC84-A247-A7B3-31F3AA158509" name="Cast_Information">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:27:53 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cName" id="869907A2-CE93-9113-8A21-759228CC0222">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:28:23 UTC</createdTime>
+<commentInRDBMS>배역 이름</commentInRDBMS>
+<ownerDesignName>DB_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Actor_aName_Kor" id="1854A687-01B3-D7FB-650A-666AE0190901">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:29:07 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B8CD7510-ADC8-6239-7C2A-8E849777C92E" referredColumn="F438303B-9F5C-93AB-74E1-41A467AD4FDF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61B27738-8C4C-3A34-5040-F61D39948140" name="Cast_Information_PK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:28:56 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="869907A2-CE93-9113-8A21-759228CC0222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CED7B58-72A0-45D6-71D8-E8BDAA6EBFC8" name="Cast_Information_Actor_FK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:29:07 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1854A687-01B3-D7FB-650A-666AE0190901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

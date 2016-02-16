@@ -1,0 +1,12 @@
+127.0.0.1 - - [16/Feb/2016:09:51:42 +0900] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [16/Feb/2016:09:52:29 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:30 +0900] "GET /musicaltube/ HTTP/1.1" 200 575
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:30 +0900] "GET /musicaltube/resources/css/index.css HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:30 +0900] "GET /musicaltube/resources/image/angel.png HTTP/1.1" 200 429822
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:56 +0900] "GET /musicaltube/ HTTP/1.1" 200 575
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:56 +0900] "GET /musicaltube/resources/css/index.css HTTP/1.1" 200 258
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:56 +0900] "GET /musicaltube/resources/image/angel.png HTTP/1.1" 200 429822
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:57 +0900] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:58 +0900] "GET /musicaltube/mlist HTTP/1.1" 200 2764
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:52:58 +0900] "GET /musicaltube/resources/css/list.css HTTP/1.1" 200 2726
+0:0:0:0:0:0:0:1 - - [16/Feb/2016:09:53:03 +0900] "GET /musicaltube/detail HTTP/1.1" 200 8338

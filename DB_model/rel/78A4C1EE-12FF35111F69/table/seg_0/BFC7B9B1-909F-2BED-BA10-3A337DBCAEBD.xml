@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFC7B9B1-909F-2BED-BA10-3A337DBCAEBD" name="Publisher">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:23:48 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pName" id="8DFD768A-FF28-6E6A-C84C-99E605B219F2">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:26:26 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Actor_aName" id="7209A7E1-F3CF-C6CE-44FA-769F4997EEE9">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:26:54 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B071EA04-087E-41E8-0F2A-EC0F483FC9EF" referredColumn="F438303B-9F5C-93AB-74E1-41A467AD4FDF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2751591-DFD0-EBB4-EDCA-420ECB493104" name="Publisher_PK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:26:35 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DFD768A-FF28-6E6A-C84C-99E605B219F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7910C06-E399-E4C6-DC5F-1D01C3C3C040" name="Publisher_Actor_FK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 07:26:54 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7209A7E1-F3CF-C6CE-44FA-769F4997EEE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

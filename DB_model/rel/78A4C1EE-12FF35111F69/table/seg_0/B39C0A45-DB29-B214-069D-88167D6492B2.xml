@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B39C0A45-DB29-B214-069D-88167D6492B2" name="musical_list">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 08:22:46 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="musical_mTitle_kor" id="8ED152C9-0282-DFE0-E954-5B12E43A5362">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 08:23:15 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33FA77DC-0EC8-C4E6-A5DC-05501170D0A1" referredColumn="6C25E39C-D9D8-59A2-4432-0027BD090562"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C010497-990C-0059-54E6-DDB545822288" name="musical_list_musical_FK">
+<createdBy>yeonjin</createdBy>
+<createdTime>2016-02-03 08:23:15 UTC</createdTime>
+<ownerDesignName>DB_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ED152C9-0282-DFE0-E954-5B12E43A5362"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
