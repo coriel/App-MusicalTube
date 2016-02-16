@@ -1,0 +1,5 @@
+2016-02-16 10:35:34,487 [Worker-1] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.mureka:musicaltube:1.0.0-BUILD-SNAPSHOT @ /Users/coriel/Library/Mobile Documents/com~apple~CloudDocs/Project/Mureka/source/workspace/WebApp/pom.xml.
+2016-02-16 10:35:36,551 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-16 10:35:36,576 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2016-02-16 10:35:37,248 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-16 10:35:37,248 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
