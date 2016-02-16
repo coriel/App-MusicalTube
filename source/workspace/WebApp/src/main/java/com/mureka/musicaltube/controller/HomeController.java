@@ -23,6 +23,12 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping("gohome")
+	public String gohome() {
+		logger.info("gohome");
+		return "home";
+	}
+	
 
 	
 }

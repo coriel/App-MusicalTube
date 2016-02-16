@@ -1,0 +1,120 @@
+@CHARSET "EUC-KR";
+
+.thumnail {
+	width: 120px; /*or 70%, or what you want*/
+	height: 90px; /*or 70%, or what you want*/
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.list_font {
+	font-size: 15pt;
+}
+
+.list_font_title {
+	font-size: 12pt;
+	font-style: inherit;
+	color: navy;
+}
+
+.list_font_title_original {
+	font-size: 10pt;
+	color: gray;
+}
+
+.list_font_title_desc {
+	font-size: 10pt;
+	color: silver;
+}
+
+.ui-panel {
+    width: 10em;
+}
+
+.ui-panel.ui-panel-position-right {
+    width: 15em;
+}
+
+.ui-panel.ui-panel-closed {
+    width: 0;
+}
+
+.ui-panel-animate.ui-panel-position-left.ui-panel-display-overlay, .ui-panel-animate.ui-panel-position-left.ui-panel-display-push {
+    -webkit-transform: translate3d(-10em, 0, 0);
+    -moz-transform: translate3d(-10em, 0, 0);
+    transform: translate3d(-10em, 0, 0)
+}
+
+.ui-panel-animate.ui-panel-position-right.ui-panel-display-overlay, .ui-panel-animate.ui-panel-position-right.ui-panel-display-push {
+    -webkit-transform: translate3d(15em, 0, 0);
+    -moz-transform: translate3d(15em, 0, 0);
+    transform: translate3d(15em, 0, 0)
+}
+
+.ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-reveal, .ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-push, .ui-panel-animate.ui-panel-content-wrap-position-left.ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal, .ui-panel-animate.ui-panel-content-wrap-position-left.ui-panel-content-wrap-open.ui-panel-content-wrap-display-push {
+    -webkit-transform: translate3d(10em, 0, 0);
+    -moz-transform: translate3d(10em, 0, 0);
+    transform: translate3d(10em, 0, 0)
+}
+
+.ui-panel-animate.ui-panel-page-content-position-left{
+    -webkit-transform: translate3d(10em, 0, 0);
+    -moz-transform: translate3d(10em, 0, 0);
+    transform: translate3d(10em, 0, 0);
+}
+
+.ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-reveal, .ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-push, .ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal, .ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-push {
+    -webkit-transform: translate3d(-15em, 0, 0);
+    -moz-transform: translate3d(-15em, 0, 0);
+    transform: translate3d(-15em, 0, 0)
+}
+
+
+a.no-uline { text-decoration:none }
+
+.container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.detail_font {
+	font-size: 15pt;
+}
+
+.detail_font_title {
+	font-size: 16pt;
+	font-style: inherit;
+	color: black;
+}
+
+.detail_font_title_original {
+	color: gray;
+}
+
+.defail_font_title_desc {
+	color: silver;
+}
+
+tr.border_bottom td {
+  border-bottom:1pt solid #F0F0F0;
+}
+
+.youtubeWrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+.youtubeWrap iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
