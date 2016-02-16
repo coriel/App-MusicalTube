@@ -1,0 +1,6 @@
+INDEX VERSION 1.3+/Users/coriel/Library/Mobile Documents/com~apple~CloudDocs/Project/Mureka/workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+670370235.index
+1127506469.index
+1266031309.index
+3800019267.index
+3873575157.index
