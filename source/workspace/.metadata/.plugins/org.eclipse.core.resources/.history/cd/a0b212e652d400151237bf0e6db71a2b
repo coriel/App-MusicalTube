@@ -1,0 +1,49 @@
+<%@ page language="java" contentType="text/html;charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- Musical Tube -->
+	<ins class="adsbygoogle"
+	     style="display:inline-block;width:320px;height:100px"
+	     data-ad-client="ca-pub-0257062611314783"
+	     data-ad-slot="1973799148"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	
+	
+<form action="http://www.google.co.kr" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-0257062611314783:4229261544" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="30" />
+    <input type="submit" name="sa" value="&#xac80;&#xc0c9;" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.co.kr/coop/cse/brand?form=cse-search-box&amp;lang=ko"></script>
+
+
+  <div class="cse-branding-logo">
+    <img src="http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" />
+  </div>
+  <div class="cse-branding-text">
+    사용자 정의 검색
+  </div>
+</div>
+
+<script type="text/javascript" src="http://www.google.co.kr/coop/cse/brand?form=cse-search-box&amp;lang=ko"></script>
+
+	<script type="text/javascript" src="http://www.google.com/cse/query_renderer.js"></script>
+<div id="queries"></div>
+<script src="http://www.google.com/cse/api/partner-pub-0257062611314783/cse/4229261544/queries/js?oe=UTF-8&amp;callback=(new+PopularQueryRenderer(document.getElementById(%22queries%22))).render"></script>
+
+	
+</body>
+</html>

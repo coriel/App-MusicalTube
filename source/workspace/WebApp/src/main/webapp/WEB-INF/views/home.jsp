@@ -15,7 +15,6 @@
 
  <div data-role="page" id="pageone">
  <%@ include file="menu.jsp" %>
-
   <div data-role="header">
   <a href="#myPanel" class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext">Open Panel</a>
     <h1>공연실황(한글자막)</h1>
@@ -59,12 +58,15 @@
 		</table>
 		
 	</a>
-    
+
   </div>
 
   <div data-role="footer">
      <%@ include file="footer.jsp" %>
+     
   </div> 
+  
+
 </div>
 
 

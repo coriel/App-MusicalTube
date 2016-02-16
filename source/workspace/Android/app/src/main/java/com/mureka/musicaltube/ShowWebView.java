@@ -17,6 +17,9 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,6 +39,10 @@ public class ShowWebView extends Activity {
 
 
         setContentView(R.layout.webview);
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
 
         webView = (android.webkit.WebView)findViewById(R.id.webView);

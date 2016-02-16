@@ -1,0 +1,39 @@
+<%@ page contentType="text/html;charset=UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<%-- <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css?"> --%>
+<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/list.css?<?=time()?>"/>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<title>Insert title here</title>
+</head>
+<body>
+	<div data-role="page" id="pageone">
+		 <%@ include file="menu.jsp" %>
+
+		<div data-role="header">
+			<a href="#myPanel"
+				class="ui-btn ui-shadow ui-corner-all ui-icon-bars ui-btn-icon-notext">Open
+				Panel</a>
+			<h1>뮤지컬 노래방 <금영></h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+		<%@ include file="adsense.jsp" %>
+			<ul data-role="listview" data-autodividers="true" data-filter="true" data-theme="a" data-divider-theme="b" data-filter-theme="a" data-content-theme="b">
+				<li> 준비중입니다.</li>
+				
+			</ul>
+
+		</div>
+
+		<div data-role="footer">
+			<%@ include file="footer.jsp" %>
+		</div>
+	</div>
+
+</body>
+</html>

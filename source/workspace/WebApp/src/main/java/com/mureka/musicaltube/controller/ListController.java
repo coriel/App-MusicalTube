@@ -10,10 +10,6 @@ public class ListController {
 
 	private static final Logger logger = LoggerFactory.getLogger(ListController.class);
 	
-	@RequestMapping("/mlist")
-	public String mlist() {
-		return "mlist";
-	}
 	
 	@RequestMapping("/detail")
 	public String detail() {
